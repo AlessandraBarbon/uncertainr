@@ -20,12 +20,12 @@ hello <- function() {
 #https://alexander-pastukhov.github.io
 #https://alexander-pastukhov.github.io/uncertainr/articles/walkthrough.html
 
-usethis::create_github_token()
-gitcreds::gitcreds_set()
+#usethis::create_github_token()
+#gitcreds::gitcreds_set()
 #token to enter: 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
-
 #usethis::use_git_config(user.name = "AlessandraBarbon",
 #                        user.email = "alessandra.barbon@unitn.it")
+library(git2r) # do the commit:
+# git2r::commit(message = "Add hello.R file")
+usethis::use_github()
 
-usethis::use_git()
-#Selection: 2
