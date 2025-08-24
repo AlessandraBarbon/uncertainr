@@ -22,3 +22,10 @@ hello <- function() {
 
 usethis::create_github_token()
 gitcreds::gitcreds_set()
+#token to enter: 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
+
+#usethis::use_git_config(user.name = "AlessandraBarbon",
+#                        user.email = "alessandra.barbon@unitn.it")
+
+usethis::use_git()
+#Selection: 2
