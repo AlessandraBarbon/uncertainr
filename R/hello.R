@@ -23,8 +23,6 @@ hello <- function() {
 #usethis::create_github_token()
 #gitcreds::gitcreds_set()
 
-#usethis::use_git_config(user.name = "AlessandraBarbon",
-#                        user.email = "alessandra.barbon@unitn.it")
 library(git2r) # do the commit:
 # git2r::commit(message = "Add hello.R file")
 usethis::use_github()
