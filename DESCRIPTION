@@ -15,3 +15,5 @@ Description: Collection of functions to characterize uncertainty.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/AlessandraBarbon/uncertainr
+BugReports: https://github.com/AlessandraBarbon/uncertainr/issues
