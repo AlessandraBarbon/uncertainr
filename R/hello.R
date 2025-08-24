@@ -37,4 +37,3 @@ usethis::use_github()
 # absolutely
 # yeah
 roxygen2::roxygenise()
-usethis::git_default_branch_rediscover()
