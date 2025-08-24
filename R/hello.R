@@ -25,7 +25,7 @@ hello <- function() {
 
 library(git2r) # do the commit:
 # git2r::commit(message = "Add hello.R file")
-usethis::use_github()
+
 # modify description
 git2r::status() # check that there have been changes
 # Aggiungi tutte le modifiche
@@ -33,7 +33,7 @@ git2r::add(path = c("DESCRIPTION", "R/hello.R"))
 git2r::status() # check that the changes have been staged
 # Crea il commit
 git2r::commit(message = "Update DESCRIPTION and hello.R files")
-usethis::use_github()
+
 # absolutely
 # yeah
 roxygen2::roxygenise()
